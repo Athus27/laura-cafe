@@ -1,3 +1,5 @@
+// Arquivo: src/components/HomeCarousel.tsx
+
 import { Carousel } from 'react-bootstrap';
 import './HomeCarousel.css';
 import '../App.css';
@@ -10,11 +12,10 @@ function HomeCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-          \public\assets\banners\home
-            src="../../assets/banners/home/img1.jpg"
+            src="/assets/banners/home/img1.jpg" // <-- ESTE ESTAVA CORRETO
             alt="Primeiro slide"
           />
-          <Carousel.Caption className='caption' style={{bottom:'0'}}>
+          <Carousel.Caption className='caption-center'> {/* Mudei para 'caption-center' para ficar consistente */}
             <h2 style={{ fontFamily: 'JosephSophia' }}> Desperte Seus Sentidos</h2>
             <p className="lato-light">Uma experiência de aroma e sabor em cada xícara.</p>
           </Carousel.Caption>
@@ -23,7 +24,7 @@ function HomeCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="src/assets/banners/home/img2.jpg"
+            src="/assets/banners/home/img2.jpg" // <-- CORRIGIDO
             alt="Segundo slide"
           />
           <Carousel.Caption className='caption-left'>
@@ -33,16 +34,17 @@ function HomeCarousel() {
         </Carousel.Item>
         
         <Carousel.Item>
-          <img style={{opacity:'75%',backgroundColor: '#33302F!important'}}
+          <img
             className="d-block w-100"
-            src="src/assets/banners/home/img3.jpg"
+            src="/assets/banners/home/img3.jpg" // <-- CORRIGIDO
             alt="Terceiro slide"
           />
-          <Carousel.Caption className='caption fundo-fade'> 
-          <h2 style={{ fontFamily: 'JosephSophia', color: '#FFFFFF', fontWeight:"bold"}}>A Essência do Sabor</h2>
-          <p className="lato-light" style={{color:"#FFFFFF"}} >Simplesmente o melhor café, preparado para você.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+          {/* A 'style' com erro de sintaxe foi removida. Efeitos de overlay devem ser feitos com CSS. */}
+          <Carousel.Caption className='caption-right fundo-fade'> 
+            <h2 style={{ fontFamily: 'JosephSophia', color: '#FFFFFF', fontWeight:"bold"}}>A Essência do Sabor</h2>
+            <p className="lato-light" style={{color:"#FFFFFF"}} >Simplesmente o melhor café, preparado para você.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
       </Carousel>
     </section>
