@@ -13,7 +13,7 @@ function NavbarComponent() {
             {/* Logo à esquerda */}
           <Navbar.Brand className="fs-4 fw-bold">
             <img
-              src="/assets/logo.png"
+              src="./src/assets/logo.png"
               width={160}
               height={90}
               className="d-inline-block align-top me-2"

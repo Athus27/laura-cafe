@@ -31,14 +31,14 @@
     font-family: 'JosephSophia'; 
 
     /* 2. Aponte para o arquivo da fonte */
-   src: url('/assets/fonts/josephsophia.ttf');
+    src: url('./assets/fonts/josephsophia.ttf') format('ttf');
 
     font-weight: 400; 
     font-style: normal;
   }
   @font-face {
     font-family: 'JosephSophia';
-    src: url('/assets/fonts/josephsophia.ttf');
+    src: url('./assets/fonts/josephsophia.ttf') format('ttf');
     font-weight: 700; /* 700 é o valor para 'bold' ou 'negrito' */
     font-style: normal;
   }
