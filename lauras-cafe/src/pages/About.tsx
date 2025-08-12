@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Col, Row, Container } from "react-bootstrap";
 
 // Importando as imagens da pasta assets

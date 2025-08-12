@@ -1,5 +1,5 @@
 // qualquer coisa estranha no css pode ser proveniente dessas stylesheets (App ou index)
-import { Container } from 'react-bootstrap';
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import NavbarComponent from './components/Navbar'
