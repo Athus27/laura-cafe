@@ -10,7 +10,7 @@ function HomeCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="src/assets/banners/home/img1.jpg"
+            src="/assets/banners/home/img1.jpg"
             alt="Primeiro slide"
           />
           <Carousel.Caption className='caption' style={{bottom:'0'}}>
@@ -22,7 +22,7 @@ function HomeCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="src/assets/banners/home/img2.jpg"
+            src="/assets/banners/home/img2.jpg"
             alt="Segundo slide"
           />
           <Carousel.Caption className='caption-left'>
@@ -34,7 +34,7 @@ function HomeCarousel() {
         <Carousel.Item>
           <img style={{opacity:'75%',backgroundColor: '#33302F!important'}}
             className="d-block w-100"
-            src="src/assets/banners/home/img3.jpg"
+            src="/assets/banners/home/img3.jpg"
             alt="Terceiro slide"
           />
           <Carousel.Caption className='caption fundo-fade'> 

@@ -1,11 +1,11 @@
 import { Col, Row, Container } from "react-bootstrap";
 
 // Importando as imagens da pasta assets
-import fachadaGrande from "../assets/fachadaGrande.png";
-import espressoClass from "../assets/espressoClassico.png.png";
-import prensaFrancesa from "../assets/prensaFrancesa.png.png";
-import harioV60 from "../assets/hariov60.png.png";
-import aeropress from "../assets/aeropress.png.png";
+// import fachadaGrande from "../assets/fachadaGrande.png";
+// import espressoClass from "../assets/espressoClassico.png.png";
+// import prensaFrancesa from "../assets/prensaFrancesa.png.png";
+// import harioV60 from "../assets/hariov60.png.png";
+// import aeropress from "../assets/aeropress.png.png";
 
 // Sobre nós
 // Informações sobre a empresa, história, missão, visão e valores
@@ -24,7 +24,7 @@ function About() {
             className="d-flex justify-content-center align-items-center"
           >
             <img
-              src={fachadaGrande}
+              src={"/assets/fachadaGrande.png"}
               className="img-fluid rounded shadow"
               alt="fachada grande"
               style={{ maxHeight: "500px" }}
@@ -73,7 +73,7 @@ function About() {
               className="d-flex flex-column align-items-center"
             >
               <img
-                src={espressoClass}
+                src = "/assets/espressoClassico.png.png"
                 className="preparo-img img-fluid mb-2"
                 alt="Espresso icon"
                 style={{ height: "200px" }}
@@ -94,7 +94,7 @@ function About() {
               className="d-flex flex-column align-items-center"
             >
               <img
-                src={prensaFrancesa}
+                src="/assets/prensaFrancesa.png.png"
                 className="preparo-img img-fluid mb-2"
                 alt="Prensa Francesa icon"
                 style={{ height: "200px" }}
@@ -115,7 +115,8 @@ function About() {
               className="d-flex flex-column align-items-center"
             >
               <img
-                src={harioV60}
+               src="/assets/hariov60.png.png"
+                // src={harioV60}
                 className="preparo-img img-fluid mb-2"
                 alt="Hario V60 icon"
                 style={{ height: "200px" }}
@@ -136,7 +137,8 @@ function About() {
               className="d-flex flex-column align-items-center"
             >
               <img
-                src={aeropress}
+                src="/assets/aeropress.png.png"
+                // src={aeropress}
                 className="preparo-img img-fluid mb-2"
                 alt="Aeropress icon"
                 style={{ height: "200px" }}
