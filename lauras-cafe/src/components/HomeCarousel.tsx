@@ -10,7 +10,7 @@ function HomeCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="src/assets/banners/home/img1.jpg"
+            src="/assets/banners/home/img1.jpg"
             alt="Primeiro slide"
           />
           <Carousel.Caption className='caption' style={{bottom:'0'}}>
