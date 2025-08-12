@@ -6,50 +6,44 @@ import 'react-multi-carousel/lib/styles.css';
 import '../components/components-style.css';
 import ProductCard from '../components/ProductCard';
 
-import cappuccinoImg from '../assets/cappuccino.jpg';
-import macchiatoImg from '../assets/macchiato.jpg';
-import geladoImg from '../assets/gelado.jpg';
-import ristrettoImg from '../assets/cafe-ristretto.png';
-import mochaImg from '../assets/cafe-mocha.jpg';
-import coadoImg from '../assets/cafe-coado.jpg';
+//
+// 1. OS IMPORTS DAS IMAGENS FORAM REMOVIDOS
+//
 
-// Menu de Produtos
-// Lista dos cafés com imagens e descrições (utilizar um card para cada produto!)
-
-// Importando imagens dos produtos
+// 2. OS CAMINHOS DAS IMAGENS FORAM CORRIGIDOS PARA APONTAR PARA A PASTA 'PUBLIC'
 const produtos = [
     {
-        img: cappuccinoImg,
+        img: '/assets/cappuccino.jpg',
         titulo: 'Cappuccino',
         descricao: 'A harmonia perfeita entre espresso, leite vaporizado e uma cremosa espuma de leite. Um clássico reconfortante.',
         sabor: 'Intenso, cremoso'
     },
     {
-        img: macchiatoImg,
+        img: '/assets/macchiato.jpg',
         titulo: 'Macchiato',
         descricao: 'Um espresso intenso "manchado" com um toque de leite vaporizado, realçando a força e o sabor do café.',
         sabor: 'Forte, encorpado'
     },
     {
-        img: geladoImg,
+        img: '/assets/gelado.jpg',
         titulo: 'Café Gelado',
         descricao: 'Extraído a frio para um sabor suave e menos ácido. A bebida ideal para se refrescar com qualidade e sabor.',
         sabor: 'Refrescante, suave'
     },
     {
-        img: ristrettoImg,
+        img: '/assets/cafe-ristretto.png',
         titulo: 'Café Ristretto',
         descricao: 'Uma extração curta e ousada de espresso, resultando em uma bebida mais concentrada, doce e com menos amargor.',
         sabor: 'Intenso, encorpado'
     },
     {
-        img: mochaImg,
+        img: '/assets/cafe-mocha.jpg',
         titulo: 'Café Mocha',
         descricao: 'Uma combinação indulgente de espresso, chocolate e leite vaporizado, coberta com chantilly — o equilíbrio perfeito entre a força do café e a doçura do cacau.',
         sabor: 'Doce, achocolatado'
     },
     {
-        img: coadoImg,
+        img: '/assets/cafe-coado.jpg',
         titulo: 'Café Coado',
         descricao: 'Método clássico e afetivo, o café coado realça os sabores sutis dos grãos, revelando notas florais, frutadas ou achocolatadas em uma bebida leve e aromática.',
         sabor: 'Intenso, aromático'
